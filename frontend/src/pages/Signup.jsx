@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:8000/api/users/signup", {
+    const response = await fetch("https://to-do-app-nine-kappa.vercel.app/api/users/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

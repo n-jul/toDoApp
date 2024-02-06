@@ -13,7 +13,7 @@ function Home() {
     useEffect(() => {
 
         const fetchTodos = async () => {
-            const response = await fetch("http://localhost:8000/api/todos", {
+            const response = await fetch("https://to-do-app-nine-kappa.vercel.app/api/todos", {
                 headers: {
                     "Authorization": `Bearer ${user.token}`
                 }
