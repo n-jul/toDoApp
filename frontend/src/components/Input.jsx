@@ -14,7 +14,7 @@ function Input() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await fetch("https://to-do-app-nine-kappa.vercel.app//api/todos", {
+        const response = await fetch("https://to-do-app-nine-kappa.vercel.app/api/todos", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
